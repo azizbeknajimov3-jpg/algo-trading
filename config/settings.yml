@@ -1,0 +1,31 @@
+trading:
+  allowed_symbols:
+    - BTC/USDT
+    - ETH/USDT
+    - XRP/USDT
+    - EUR/USD
+    - GBP/USD
+  max_order_amount: 10000.0
+  default_exchange: binance
+  risk_management:
+    max_position_size: 0.1
+    stop_loss_percent: 2.0
+    take_profit_percent: 4.0
+
+ai:
+  model_type: lstm
+  training:
+    lookback_window: 50
+    prediction_horizon: 5
+    train_test_split: 0.8
+
+exchanges:
+  binance:
+    testnet: true
+    rate_limit: 1000
+  bybit:
+    testnet: true
+    rate_limit: 100
+  okx:
+    testnet: true
+    rate_limit: 200
