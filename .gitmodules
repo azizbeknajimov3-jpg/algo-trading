@@ -1,0 +1,15 @@
+[submodule "ccxt"]
+	path = lib/ccxt
+	url = https://github.com/ccxt/ccxt.git
+[submodule "lightweight-charts"]
+	path = lib/lightweight-charts
+	url = https://github.com/tradingview/lightweight-charts.git
+[submodule "backtrader"]
+	path = lib/backtrader
+	url = https://github.com/mementum/backtrader.git
+[submodule "jesse"]
+	path = lib/jesse
+	url = https://github.com/jesse-ai/jesse.git
+[submodule "superalgos"]
+	path = lib/superalgos
+	url = https://github.com/Superalgos/Superalgos.git
